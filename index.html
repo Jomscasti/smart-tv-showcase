@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Smart TV Layout</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Poppins&display=swap"
+        rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
+    <link rel="icon" type="image/x-icon"
+        href="https://techcrunch.com/wp-content/uploads/2019/01/GettyImages-1081194632.jpg">
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg glass-navbar sticky-top border-bottom">
+        <div class="container">
+            <a class="navbar-brand fw-semibold text-dark" href="#" style="letter-spacing: -0.5px;">Neo QLED 8K</a>
+            <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarMenu"
+                aria-controls="navbarMenu" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end align-items-center" id="navbarMenu">
+                <ul class="navbar-nav mb-2 mb-lg-0 me-lg-3">
+                    <li class="nav-item">
+                        <a class="nav-link text-dark" href="#overview">Overview</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-dark" href="#features">Features</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-dark" href="#specs">Specs</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-dark" href="#buy">Gallery</a>
+                    </li>
+                </ul>
+                <a href="#buy" class="btn btn-dark btn-sm px-3">Buy Now</a>
+            </div>
+        </div>
+    </nav>
+    <div class="container-fluid p-0" style="position: relative; width: 100%; overflow: hidden;">
+        <div class="row">
+            <div class="col" style="height: 130vh;">
+                <iframe style="pointer-events: none; margin-left: 50%; transform: translateX(-50%); margin-top: -80px;"
+                    width="4000px" height="120%"
+                    src="https://www.youtube.com/embed/fz_trQa6gtQ?autoplay=1&mute=1&controls=0&rel=0&disablekb=1&loop=1&playlist=fz_trQa6gtQ&modestbranding=1&showinfo=0"
+                    title="Neo QLED 8K Product Video" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+                </iframe>
+            </div>
+        </div>
+        <div style="position: absolute; top: 0px; width: 100%; height: 100%; background-color: rgba(0, 0, 0, 0.3);">
+        </div>
+    </div>
+
+    <div class="container py-5">
+
+        <!-- Overview -->
+        <div class="glass-card mb-5" id="overview">
+            <h2>Product Overview</h2>
+            <p>Experience unparalleled clarity, design, and performance with the 85" Neo QLED 8K QN900D Smart TV.
+                Powered by the NQ8 AI Gen3 Processor, this television delivers an 8K experience like no other, with
+                stunning visuals and cutting-edge technology built to enhance every frame you watch.</p>
+        </div>
+
+        <div class="row gy-4 align-items-stretch">
+
+            <!-- Carousel -->
+            <div class="col-12 col-lg-7 d-flex">
+                <div id="productCarousel" class="carousel slide shadow rounded-4 w-100 h-100 overflow-hidden"
+                    data-bs-ride="carousel">
+
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#productCarousel" data-bs-slide-to="0" class="active"
+                            aria-current="true"></button>
+                        <button type="button" data-bs-target="#productCarousel" data-bs-slide-to="1"></button>
+                        <button type="button" data-bs-target="#productCarousel" data-bs-slide-to="2"></button>
+                        <button type="button" data-bs-target="#productCarousel" data-bs-slide-to="3"></button>
+                    </div>
+
+                    <div class="carousel-inner h-100">
+                        <div class="carousel-item active h-100">
+                            <img src="https://images.samsung.com/is/image/samsung/p6pim/ph/qa85qn900dgxxp/gallery/ph-qled-qn900d-qa85qn900dgxxp-540974214?$684_547_JPG$"
+                                class="d-block w-100 h-100 object-fit-cover">
+                        </div>
+                        <div class="carousel-item h-100">
+                            <img src="https://images.samsung.com/is/image/samsung/p6pim/ph/qa85qn900dgxxp/gallery/ph-qled-qn900d-qa85qn900dgxxp-540974197?$684_547_JPG$"
+                                class="d-block w-100 h-100 object-fit-cover">
+                        </div>
+                        <div class="carousel-item h-100">
+                            <img src="https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6576/6576360cv18d.jpg"
+                                class="d-block w-100 h-100 object-fit-cover">
+                        </div>
+                        <div class="carousel-item h-100">
+                            <img src="https://images.samsung.com/is/image/samsung/p6pim/ca/feature/165009982/ca-feature-attachable-one-connect-539916799?$900*N_JPG$"
+                                class="d-block w-100 h-100 object-fit-cover">
+                        </div>
+                    </div>
+
+                    <button class="carousel-control-prev" type="button" data-bs-target="#productCarousel"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#productCarousel"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+
+            <!-- Features -->
+            <div class="col-12 col-lg-5 d-flex" id="features">
+                <div class="glass-card h-100 w-100">
+                    <h2 class="mb-4">Top Features</h2>
+                    <div class="mb-3">
+                        <h5 class="fw-bold">NQ8 AI Gen3 Processor</h5>
+                        <p class="mb-0">Enhanced picture quality and optimized performance for every scene.</p>
+                    </div>
+                    <div class="mb-3">
+                        <h5 class="fw-bold">Infinity Air Design</h5>
+                        <p class="mb-0">Ultra-slim and nearly bezel-less for immersive viewing.</p>
+                    </div>
+                    <div class="mb-3">
+                        <h5 class="fw-bold">8K AI Upscaling Pro</h5>
+                        <p class="mb-0">Upscale content automatically with AI precision.</p>
+                    </div>
+                    <div>
+                        <h5 class="fw-bold">Samsung Tizen OS</h5>
+                        <p class="mb-0">Access apps and services with seamless smart features.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Specifications -->
+        <div class="glass-card mt-5" id="specs">
+            <h2>Specifications</h2>
+            <div class="table-responsive">
+                <table class="table table-bordered">
+                    <tr>
+                        <th>Screen Size</th>
+                        <td>85 inches</td>
+                    </tr>
+                    <tr>
+                        <th>Resolution</th>
+                        <td>7680 x 4320 (8K)</td>
+                    </tr>
+                    <tr>
+                        <th>Processor</th>
+                        <td>NQ8 AI Gen3 Processor</td>
+                    </tr>
+                    <tr>
+                        <th>Display Technology</th>
+                        <td>Neo QLED</td>
+                    </tr>
+                    <tr>
+                        <th>HDR</th>
+                        <td>Quantum HDR 64x</td>
+                    </tr>
+                    <tr>
+                        <th>Smart TV Features</th>
+                        <td>Voice Assistants, App Support, SmartThings Integration</td>
+                    </tr>
+                    <tr>
+                        <th>Operating System</th>
+                        <td>Samsung Tizen OS</td>
+                    </tr>
+                    <tr>
+                        <th>Connectivity</th>
+                        <td>HDMI 2.1, USB, Wi-Fi, Bluetooth</td>
+                    </tr>
+                    <tr>
+                        <th>Sound Technology</th>
+                        <td>Object Tracking Sound Pro, Dolby Atmos</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+
+        <!-- Buy Now -->
+        <div class="glass-card text-center py-4 my-5" id="buy">
+            <h2>Why Choose the Neo QLED 8K QN900D?</h2>
+            <p>For movie lovers, gamers, and those seeking the best—experience 8K brilliance like never before.</p>
+            <a href="https://www.samsung.com/ph/tvs/qled-tv/qn900d-85-inch-neo-qled-8k-tizen-os-smart-tv-qa85qn900dgxxp/"
+                class="btn btn-light btn-lg shadow">Buy Now</a>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer mt-auto py-5 border-top bg-dark bg-opacity-75 text-light">
+        <div class="container">
+            <div class="row gy-4 text-center text-md-start">
+
+                <!-- About Product -->
+                <div class="col-md-4">
+                    <h5 class="fw-bold text-light">Neo QLED 8K QN900D</h5>
+                    <p class="mb-0 small text-light">
+                        Redefining what a Smart TV can be. Powered by AI, designed with elegance,<br>
+                        and engineered for those who demand the best in home entertainment.
+                    </p>
+                </div>
+
+                <!-- Navigation -->
+                <div class="col-md-4">
+                    <h5 class="fw-bold text-light">Explore</h5>
+                    <ul class="list-unstyled small">
+                        <li><a href="#overview" class="text-decoration-none text-light">Overview</a></li>
+                        <li><a href="#features" class="text-decoration-none text-light">Top Features</a></li>
+                        <li><a href="#specs" class="text-decoration-none text-light">Specifications</a></li>
+                        <li><a href="#buy" class="text-decoration-none text-light">Buy Now</a></li>
+                    </ul>
+                </div>
+
+                <!-- Support & Social -->
+                <div class="col-md-4">
+                    <h5 class="fw-bold text-light">Support & Media</h5>
+                    <div class="d-flex justify-content-center justify-content-md-start gap-3 fs-4">
+                        <a href="mailto:support@neoQLED.com" class="text-light" target="_blank">
+                            <i class="bi bi-envelope-fill"></i>
+                        </a>
+                        <a href="https://www.instagram.com/samsungph/" class="text-light" target="_blank">
+                            <i class="bi bi-instagram"></i>
+                        </a>
+                        <a href="https://www.linkedin.com/company/samsung/" class="text-light" target="_blank">
+                            <i class="bi bi-linkedin"></i>
+                        </a>
+                        <a href="https://www.facebook.com/SamsungPH" class="text-light" target="_blank">
+                            <i class="bi bi-facebook"></i>
+                        </a>
+                        <a href="https://www.samsung.com/ph" class="text-light" target="_blank">
+                            <i class="bi bi-globe"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <hr class="mt-4 text-light">
+
+            <p class="text-center text-light small mb-0">
+                &copy; 2025 <strong>Neo QLED 8K QN900D</strong>. All rights reserved. A product experience brought to
+                you by innovation and design excellence.
+            </p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
