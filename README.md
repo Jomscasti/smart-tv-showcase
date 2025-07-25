@@ -20,9 +20,11 @@ A responsive product landing page for the **Neo QLED 8K QN900D Smart TV**, desig
 ├── index.html
 ├── style.css
 
+## Live Preview of the Website
+[jomari](https://jomscasti.github.io/smart-tv-showcase)
 
 ## 📷 Preview
-![Preview](https://images.samsung.com/is/image/samsung/p6pim/ph/qa85qn900dgxxp/gallery/ph-qled-qn900d-qa85qn900dgxxp-540974214?$684_547_JPG$)
+![[Preview](https://jomscasti.github.io/smart-tv-showcase)](https://images.samsung.com/is/image/samsung/p6pim/ph/qa85qn900dgxxp/gallery/ph-qled-qn900d-qa85qn900dgxxp-540974214?$684_547_JPG$)
 
 ## 🛒 View Product
 [Samsung Official Product Page](https://www.samsung.com/ph/tvs/qled-tv/qn900d-85-inch-neo-qled-8k-tizen-os-smart-tv-qa85qn900dgxxp/)
