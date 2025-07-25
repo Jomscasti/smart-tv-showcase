@@ -3,7 +3,7 @@ A responsive product landing page for the **Neo QLED 8K QN900D Smart TV**, desig
 
 
 ## 🔗 Live Preview
-👉 [View the Website](https://jomscasti.github.io/smart-tv-showcase)
+👉 [View the Website](https://jomscasti.github.io/smart-tv-showcase/)
 
 ## 📌 Features
 - Responsive Bootstrap 5 layout
